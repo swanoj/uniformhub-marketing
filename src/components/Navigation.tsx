@@ -75,7 +75,7 @@ export default function Navigation() {
             onClick={(e) => handleAnchorClick(e, "value-story")}
             className="rounded-lg px-3 py-2 text-sm font-medium text-brand-textMuted transition hover:bg-black/[0.04] hover:text-brand-text"
           >
-            Aussie Savings
+            Why UniformHub
           </a>
           <a
             href="#features"
@@ -149,7 +149,7 @@ export default function Navigation() {
               onClick={(e) => handleAnchorClick(e, "value-story")}
               className="rounded-xl px-3 py-2 text-base font-semibold text-brand-text hover:bg-black/[0.04]"
             >
-              Aussie Savings
+              Why UniformHub
             </a>
             <a
               href="#features"

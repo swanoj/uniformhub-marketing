@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Check, ShoppingBag, DollarSign, Sparkles } from "lucide-react";
+import { Check, ShoppingBag, DollarSign, Sparkles, Lock, ShieldCheck } from "lucide-react";
 
 export default function TwoSidedValue() {
   return (
@@ -33,7 +33,7 @@ export default function TwoSidedValue() {
                 </div>
                 <div>
                   <span className="font-bold text-brand-text">Find your school's exact uniform</span>
-                  <span className="text-sm text-brand-textMuted block">Not generic "navy polos", but official school branded gear.</span>
+                  <span className="text-sm text-brand-textMuted block">Not generic "navy polos", but official school branded gear and sports uniform lines.</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -41,8 +41,8 @@ export default function TwoSidedValue() {
                   <Check className="h-3.5 w-3.5 stroke-[3]" />
                 </div>
                 <div>
-                  <span className="font-bold text-brand-text">Search by size, condition, and distance</span>
-                  <span className="text-sm text-brand-textMuted block">Filter instantly to locate what you need, right down the street.</span>
+                  <span className="font-bold text-brand-text">Search by size, category, and sports</span>
+                  <span className="text-sm text-brand-textMuted block">Filter instantly to locate blazers, summer dresses, activewear, and house gear.</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -51,15 +51,15 @@ export default function TwoSidedValue() {
                 </div>
                 <div>
                   <span className="font-bold text-brand-text">Pay securely in the app</span>
-                  <span className="text-sm text-brand-textMuted block">Stripe checkout holds funds safely until you pick up and confirm.</span>
+                  <span className="text-sm text-brand-textMuted block">Stripe checkout holds funds safely in escrow until you pick up and confirm the items.</span>
                 </div>
               </li>
             </ul>
 
-            {/* Savings Callout Tag */}
+            {/* Safety Callout Tag */}
             <div className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#F0FAF4] border border-emerald-500/10 px-4 py-2.5 text-emerald-800 text-sm font-semibold">
-              <Sparkles className="h-4 w-4 text-emerald-600" />
-              <span>Average savings: 60% – 80% off retail prices!</span>
+              <Lock className="h-4 w-4 text-emerald-600" />
+              <span>Stripe-powered escrow protects every single purchase!</span>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function TwoSidedValue() {
                 </div>
                 <div>
                   <span className="font-bold text-brand-text">Always free to list</span>
-                  <span className="text-sm text-brand-textMuted block">No upfront costs. We only charge a small processing fee when sold.</span>
+                  <span className="text-sm text-brand-textMuted block">No upfront listing costs. Clean, secure payout straight to your bank account.</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -103,15 +103,15 @@ export default function TwoSidedValue() {
                 </div>
                 <div>
                   <span className="font-bold text-brand-text">Buyers come straight to you</span>
-                  <span className="text-sm text-brand-textMuted block">No messy marketplace coordinates. Swap easily at the school drop-off gates.</span>
+                  <span className="text-sm text-brand-textMuted block">No messy marketplace coordinates. Swap easily with verified parents at the school drop-off gates.</span>
                 </div>
               </li>
             </ul>
 
-            {/* Savings Callout Tag */}
+            {/* Verification Callout Tag */}
             <div className="mt-8 inline-flex items-center gap-2 rounded-xl bg-brand-coral/5 border border-brand-coral/10 px-4 py-2.5 text-brand-coral font-semibold text-sm">
-              <Sparkles className="h-4 w-4 text-brand-coral" />
-              <span>Most items sell within 7 days during back-to-school.</span>
+              <ShieldCheck className="h-4 w-4 text-brand-coral" />
+              <span>Only verified school community members can view your listings.</span>
             </div>
           </div>
         </div>

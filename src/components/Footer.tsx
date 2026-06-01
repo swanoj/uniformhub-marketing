@@ -71,7 +71,7 @@ export default function Footer() {
                 onClick={(e) => handleAnchorClick(e, "value-story")}
                 className="text-brand-textMuted hover:text-brand-teal transition-colors"
               >
-                Aussie Savings
+                Why UniformHub
               </a>
               <a
                 href="#features"
