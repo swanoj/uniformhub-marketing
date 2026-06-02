@@ -48,7 +48,7 @@ export default function HowItWorks() {
               </p>
               
               {/* Mini UI Demonstration */}
-              <div className="mt-5 w-full rounded-xl bg-neutral-50 p-2.5 border border-black/[0.04]">
+              <div className="mt-5 w-full rounded-xl bg-[#FAFAF8] p-2.5 border border-black/[0.04] shadow-subtle transition-all duration-300 group-hover:bg-white group-hover:shadow-medium group-hover:scale-[1.02]">
                 <div className="flex items-center gap-2 text-left">
                   <span className="text-lg">🏫</span>
                   <div className="min-w-0 flex-1">
@@ -79,7 +79,7 @@ export default function HowItWorks() {
               </p>
 
               {/* Mini UI Demonstration */}
-              <div className="mt-5 w-full rounded-xl bg-neutral-50 p-2.5 border border-black/[0.04] flex items-center justify-between">
+              <div className="mt-5 w-full rounded-xl bg-[#FAFAF8] p-2.5 border border-black/[0.04] flex items-center justify-between shadow-subtle transition-all duration-300 group-hover:bg-white group-hover:shadow-medium group-hover:scale-[1.02]">
                 <div className="flex items-center gap-1.5 text-left">
                   <span className="text-sm">🧥</span>
                   <div className="min-w-0">
@@ -112,7 +112,7 @@ export default function HowItWorks() {
               </p>
 
               {/* Mini UI Demonstration */}
-              <div className="mt-5 w-full rounded-xl bg-white p-2 border border-black/[0.04] text-left">
+              <div className="mt-5 w-full rounded-xl bg-white p-2 border border-black/[0.04] text-left shadow-subtle transition-all duration-300 group-hover:shadow-medium group-hover:scale-[1.02]">
                 <div className="text-[8px] bg-brand-teal/5 text-brand-teal px-1.5 py-0.5 rounded-md inline-block font-bold">
                   Active Chat
                 </div>

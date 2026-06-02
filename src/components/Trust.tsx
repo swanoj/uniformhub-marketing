@@ -120,7 +120,7 @@ export default function Trust() {
             {testimonials.map((test, i) => (
               <div
                 key={i}
-                className="relative rounded-2xl border border-[#0D6E6E]/10 bg-brand-teal/5 p-6 text-left flex flex-col justify-between shadow-subtle transition-all hover:shadow-medium duration-300"
+                className="relative rounded-2xl border border-[#0D6E6E]/10 bg-brand-teal/5 p-6 text-left flex flex-col justify-between shadow-subtle transition-all hover:-translate-y-1 hover:shadow-medium duration-300"
               >
                 <Quote className="absolute top-4 right-4 h-8 w-8 text-brand-teal/10 rotate-180" aria-hidden="true" />
                 

@@ -27,7 +27,7 @@ export default function TwoSidedValue() {
             </p>
 
             <ul className="mt-8 space-y-4">
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
                 <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-teal/10 text-brand-teal">
                   <Check className="h-3.5 w-3.5 stroke-[3]" />
                 </div>
@@ -36,7 +36,7 @@ export default function TwoSidedValue() {
                   <span className="text-sm text-brand-textMuted block">Not generic "navy polos", but official school branded gear and sports uniform lines.</span>
                 </div>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
                 <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-teal/10 text-brand-teal">
                   <Check className="h-3.5 w-3.5 stroke-[3]" />
                 </div>
@@ -45,7 +45,7 @@ export default function TwoSidedValue() {
                   <span className="text-sm text-brand-textMuted block">Filter instantly to locate blazers, summer dresses, activewear, and house gear.</span>
                 </div>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
                 <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-teal/10 text-brand-teal">
                   <Check className="h-3.5 w-3.5 stroke-[3]" />
                 </div>
@@ -79,7 +79,7 @@ export default function TwoSidedValue() {
             </p>
 
             <ul className="mt-8 space-y-4">
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
                 <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-coral/10 text-brand-coral">
                   <Check className="h-3.5 w-3.5 stroke-[3]" />
                 </div>
@@ -88,7 +88,7 @@ export default function TwoSidedValue() {
                   <span className="text-sm text-brand-textMuted block">Just snap a photo, pick your school, set your price, and list.</span>
                 </div>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
                 <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-coral/10 text-brand-coral">
                   <Check className="h-3.5 w-3.5 stroke-[3]" />
                 </div>
@@ -97,7 +97,7 @@ export default function TwoSidedValue() {
                   <span className="text-sm text-brand-textMuted block">No upfront listing costs. Clean, secure payout straight to your bank account.</span>
                 </div>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
                 <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-coral/10 text-brand-coral">
                   <Check className="h-3.5 w-3.5 stroke-[3]" />
                 </div>

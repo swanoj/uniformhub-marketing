@@ -85,17 +85,17 @@ export default function FAQ() {
                 <button
                   type="button"
                   onClick={() => toggleFAQ(index)}
-                  className="flex w-full items-center justify-between px-5 py-4.5 text-left transition-colors sm:px-6 sm:py-5"
+                  className="flex w-full items-center justify-between px-5 py-4.5 text-left transition-all duration-300 sm:px-6 sm:py-5 group/btn"
                   aria-expanded={isOpen}
                 >
-                  <span className="text-sm font-semibold leading-snug text-brand-text sm:text-base pr-4">
+                  <span className="text-sm font-semibold leading-snug text-brand-text sm:text-base pr-4 transition-transform duration-300 group-hover/btn:translate-x-1">
                     {faq.question}
                   </span>
                   <div
                     className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border transition-all duration-300 ${
                       isOpen
                         ? "border-brand-teal/20 bg-brand-teal text-white"
-                        : "border-black/[0.06] bg-white text-brand-textMuted group-hover:text-brand-text"
+                        : "border-black/[0.06] bg-white text-brand-textMuted group-hover/btn:border-brand-teal/20 group-hover/btn:bg-brand-teal/5 group-hover/btn:text-brand-teal"
                     }`}
                   >
                     <ChevronDown
