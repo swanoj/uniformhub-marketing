@@ -82,10 +82,11 @@ export default function Hero() {
               id="hero-btn-primary"
               href="#final-cta"
               onClick={(e) => handleScrollTo(e, "final-cta")}
-              className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-xl bg-brand-teal px-6 py-3.5 text-base font-bold text-white transition-all duration-200 hover:bg-brand-teal-hover hover:shadow-medium transform active:scale-98 shadow-subtle"
+              className="group/hero-btn relative overflow-hidden inline-flex cursor-pointer items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#0D6E6E] via-[#0D7E7E] to-[#0A5757] px-6 py-3.5 text-base font-bold text-white transition-all duration-300 hover:shadow-[0_10px_25px_-5px_rgba(13,110,110,0.5),0_8px_16px_-6px_rgba(13,110,110,0.3)] hover:-translate-y-0.5 active:scale-98 shadow-subtle"
             >
-              <span>Get the app for free</span>
-              <ArrowRight className="h-5 w-5" />
+              <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover/hero-btn:animate-shimmer pointer-events-none" />
+              <span className="relative z-10">Get the app for free</span>
+              <ArrowRight className="relative z-10 h-5 w-5 transition-transform duration-200 group-hover/hero-btn:translate-x-1" />
             </a>
             <a
               id="hero-btn-secondary"

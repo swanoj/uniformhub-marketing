@@ -106,10 +106,11 @@ export default function Navigation() {
             id="nav-btn-download"
             href="#final-cta"
             onClick={(e) => handleAnchorClick(e, "final-cta")}
-            className="inline-flex cursor-pointer items-center justify-center gap-1.5 rounded-xl bg-brand-teal px-4.5 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:bg-brand-teal-hover shadow-subtle transform active:scale-95"
+            className="group/nav-btn relative overflow-hidden inline-flex cursor-pointer items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-[#0D6E6E] to-[#0A5757] px-4.5 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(13,110,110,0.4)] hover:-translate-y-0.5 active:scale-95 shadow-subtle"
           >
-            <span>Get the app</span>
-            <ArrowRight className="h-4 w-4" />
+            <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent group-hover/nav-btn:animate-shimmer pointer-events-none" />
+            <span className="relative z-10">Get the app</span>
+            <ArrowRight className="relative z-10 h-4 w-4 transition-transform duration-200 group-hover/nav-btn:translate-x-0.5" />
           </a>
         </div>
 
@@ -177,10 +178,11 @@ export default function Navigation() {
               id="mobile-nav-btn-download"
               href="#final-cta"
               onClick={(e) => handleAnchorClick(e, "final-cta")}
-              className="flex w-full items-center justify-center gap-2 rounded-xl bg-brand-teal py-3 text-base font-bold text-white transition hover:bg-brand-teal-hover shadow-subtle"
+              className="group/mob-btn relative overflow-hidden flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#0D6E6E] to-[#0A5757] py-3 text-base font-bold text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(13,110,110,0.35)] active:scale-98 shadow-subtle"
             >
-              <span>Download UniformHub</span>
-              <ArrowRight className="h-5 w-5" />
+              <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent group-hover/mob-btn:animate-shimmer pointer-events-none" />
+              <span className="relative z-10">Download UniformHub</span>
+              <ArrowRight className="relative z-10 h-5 w-5 transition-transform duration-200 group-hover/mob-btn:translate-x-0.5" />
             </a>
           </div>
         </div>
