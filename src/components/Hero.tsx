@@ -63,9 +63,9 @@ export default function Hero() {
 
           {/* Headline H1 */}
           <h1 className="mt-5 font-display text-4xl font-bold leading-tight tracking-tight text-brand-text sm:text-5xl lg:text-[3.5rem] lg:leading-[1.1]">
-            School uniforms shouldn't cost{" "}
+            Safe, reliable{" "}
             <span className="relative inline-block text-brand-teal">
-              $2,000 a year.
+              secondhand school uniforms.
               <span className="absolute bottom-1.5 left-0 h-[3px] w-full rounded-full bg-brand-coral/30" />
             </span>
           </h1>

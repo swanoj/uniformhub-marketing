@@ -29,8 +29,8 @@ export default function FAQ() {
       answer: "To keep our platform completely free of processing fees, parents arrange payments directly. Most Aussie parents use PayID, bank transfer, or cash during the face-to-face handoff. Because you're exchanging items in person at school, you inspect the uniforms before any money changes hands.",
     },
     {
-      question: "Can I list items other than everyday uniforms?",
-      answer: "Absolutely! You can buy or sell anything school-zone related. This includes formal blazers, house sports jerseys, school bags, approved black leather school shoes, sports gear, textbooks, calculators, and even musical instruments. If it is on your school's official equipment list, you can sell it here.",
+      question: "What types of items can I list on UniformHub?",
+      answer: "UniformHub is focused strictly on school wear and school sports gear. You can buy or sell official everyday uniforms, formal blazers, house sports jerseys, school bags, approved school shoes, and any protective or sporting gear required for school sports. Keeping our marketplace specialized ensures you find exactly what you need quickly and reliably.",
     },
     {
       question: "How is my personal privacy protected?",
